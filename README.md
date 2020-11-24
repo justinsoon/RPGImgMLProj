@@ -9,3 +9,5 @@ Topics:
 - OAuth2
 - Deserialization of objects
 - Defining schema for the machine to learn
+
+[img]https://i.imgur.com/pVLLSca.png[/img]
