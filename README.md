@@ -10,4 +10,4 @@ Topics:
 - Deserialization of objects
 - Defining schema for the machine to learn
 
-[img]https://i.imgur.com/pVLLSca.png[/img]
+https://i.imgur.com/pVLLSca.png
