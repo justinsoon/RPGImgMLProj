@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomaton\\EPICAutomaton.CSPROJ": {}
+  },
+  "projects": {
+    "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomatonML.Model\\EPICAutomatonML.Model.CSPROJ": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomatonML.Model\\EPICAutomatonML.Model.CSPROJ",
+        "projectName": "EPICAutomatonML.Model",
+        "projectPath": "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomatonML.Model\\EPICAutomatonML.Model.CSPROJ",
+        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomatonML.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.0-preview, )"
+            },
+            "Microsoft.ML.ImageAnalytics": {
+              "target": "Package",
+              "version": "[1.5.0-preview, )"
+            },
+            "Microsoft.ML.Vision": {
+              "target": "Package",
+              "version": "[1.5.0-preview, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SciSharp.TensorFlow.Redist": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomaton\\EPICAutomaton.CSPROJ": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomaton\\EPICAutomaton.CSPROJ",
+        "projectName": "ERPGBot",
+        "projectPath": "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomaton\\EPICAutomaton.CSPROJ",
+        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomaton\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomatonML.Model\\EPICAutomatonML.Model.CSPROJ": {
+                "projectPath": "C:\\Users\\Justin\\Downloads\\EPICAutomaton-master - Copy\\EPICAutomatonML.Model\\EPICAutomatonML.Model.CSPROJ"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NAudio": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "ObjectDumper.NET": {
+              "target": "Package",
+              "version": "[2.5.20155.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

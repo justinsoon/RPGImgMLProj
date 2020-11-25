@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>EXE</OutputType>
+		<TargetFramework>NetCoreApp3.1</TargetFramework>
+		<RootNamespace>BOT</RootNamespace>
+		<AssemblyName>ERPGBot</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Assets\ML-Training-Data\POTION\**" />
+	  <EmbeddedResource Remove="Assets\ML-Training-Data\POTION\**" />
+	  <None Remove="Assets\ML-Training-Data\POTION\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NAudio" Version="1.10.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="ObjectDumper.NET" Version="2.5.20155.1" />
+		<PackageReference Include="RestSharp" Version="106.11.4" />
+		<PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ContentWithTargetPath Include="Assets\Audio-Files\Epic-Guard-Alert.MP3">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<TargetPath>Epic-Guard-Alert.MP3</TargetPath>
+		</ContentWithTargetPath>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ERPG.Model\ERPGML.Model.CSPROJ" />
+	</ItemGroup>
+
+</Project>
