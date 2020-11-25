@@ -7,7 +7,7 @@ namespace BOT.Requests
     public static class RPGWork
     {
         //private static string Command;
-        private static string Command = RPGWorkType.WorkType;
+        private static string Command = "RPG " + RPGWorkType.WorkType;
         //private static readonly int CooldownInSeconds = 197;
         private static readonly int CooldownInSeconds = RPGCD.Work;
 

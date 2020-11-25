@@ -46,7 +46,7 @@ namespace BOT
 
             while (Utility.Runtime.Elapsed < TimeSpan.FromHours(ENV.RuntimeInHours))
             {
-                RPGWork.MakeRequest("RPG CHOP");
+                RPGWork.MakeRequest("RPG " + RPGWorkType.WorkType);
                 RPGBuyHP.MakeRequest("RPG buy life potion 1");
                 RPGHeal.MakeRequest();
                 RPGHunt.MakeRequest();
