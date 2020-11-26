@@ -12,3 +12,5 @@ Topics:
 
 
 ![bypassing captcha](https://i.imgur.com/pVLLSca.png)
+
+![Example image](https://i.imgur.com/ceVrKki.png)
